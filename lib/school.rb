@@ -24,9 +24,9 @@ end
     roster[grade]
  end
   def sort
-  roster.each do |key, value|
-    roster[key] = value
-  end
+    roster.each do |grade, name|
+      roster[grade] = name.sort
+    end
   end 
     
     
